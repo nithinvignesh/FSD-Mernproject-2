@@ -1,0 +1,40 @@
+.Footer{
+    background-color: #1B1E2B;      /* Updated dark-indigo theme */
+    color: #E4E6EB;
+    padding: 3vh 3vw;
+    margin-top: 3vh;
+    border-top: 1px solid #3F3F55;
+}
+
+.Footer h4{
+    margin-left: 2vw;
+    color: #A5B4FC;                /* Accent heading */
+}
+
+.footer-body{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10vw;
+    margin: 3vh 0;
+}
+
+/* List items */
+.footer-body ul li{
+    list-style: none;
+    color: #C7C9D1;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.footer-body ul li:hover{
+    color: #ffffff;
+    transform: translateX(3px);    /* Smooth subtle hover movement */
+}
+
+/* Bottom section */
+.footer-bottom p{
+    text-align: center;
+    color: #A8ADBB;
+    margin: 0;
+    font-size: 0.85rem;
+}

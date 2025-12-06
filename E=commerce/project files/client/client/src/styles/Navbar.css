@@ -1,0 +1,165 @@
+/* ================= User Navbar ================= */
+.navbar{
+    height: 12vh;
+    background-color: #1E1E2F;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    padding: 0 2vw;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px;
+}
+
+.navbar h3{
+    margin: 0;
+    color: #A5B4FC;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.nav-content{
+    display: flex;
+    width: 70%;
+    align-items: center;
+    justify-content: end;
+    gap: 20px;
+}
+
+/* Search Bar */
+.nav-search{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.nav-search input{
+    width: 100%;
+    outline: none;
+    padding: 10px 12px;
+    border-radius: 0.5rem;
+    border: 1px solid #3F3F55;
+    font-size: 0.9rem;
+    background-color: #2A2A40;
+    color: #E4E6EB;
+}
+
+.nav-search input:focus{
+    outline: none;
+    border-color: #4F8CF7;
+}
+
+.nav-search-icon{
+    font-size: 1.8rem; 
+    margin-left: -2.2rem;
+    cursor: pointer;
+    color: #A5B4FC;
+}
+
+/* Search Result Box */
+.search-result-data{
+    position: absolute;
+    top: 10vh;
+    left: 40vw;
+    background-color: rgba(40, 44, 60, 0.85);
+    backdrop-filter: blur(12px);
+    padding: 20px;
+    border-radius: 0.5rem;
+    color: #E4E6EB;
+    min-width: 300px;
+    box-shadow: rgba(0,0,0,0.25) 0px 6px 20px;
+}
+
+.search-result-data-close-btn{
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+/* Buttons */
+.nav-content button{
+    padding: 3px 20px 5px 20px;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    border: 1px solid #4F8CF7;
+    background-color: transparent;
+    color: #E4E6EB;
+    transition: 0.2s ease;
+}
+
+.nav-content button:hover{
+    background-color: #4F8CF7;
+    color: aliceblue;
+    border: 1px solid #4F8CF7;
+}
+
+/* Icons */
+.nav-content-icons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-cart .cart-count{
+    position: relative;
+    top: -8px;
+    font-size: 0.7rem;
+    color: #FF6B6B;
+}
+
+.nav-profile{
+    display: flex;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.nav-profile p{
+    margin: 0;
+    color: #E4E6EB;
+}
+
+.navbar-icons{
+    font-size: 1.5rem;
+    color: #C7C9D1;
+    cursor: pointer;
+}
+
+/* ================= Admin Navbar ================= */
+.navbar-admin{
+    height: 12vh;
+    background-color: #0F1020;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    padding: 0 2vw;
+    box-shadow: rgba(0,0,0,0.3) 0px 4px 16px;
+}
+
+.navbar-admin h3{
+    margin: 0;
+    color: #A5B4FC;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.navbar-admin ul{
+    display: flex;
+    margin: 0;
+    gap: 25px;
+}
+
+.navbar-admin ul li{
+    list-style: none;
+    color: #C7C9D1;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.navbar-admin ul li:hover{
+    color: #4F8CF7;
+}

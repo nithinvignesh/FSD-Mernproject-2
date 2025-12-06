@@ -1,0 +1,74 @@
+.admin-page{
+    background-color: #1E1E2F;      /* Updated background */
+    height: 100vh;
+    width: 100%;
+    padding-top: 15vh;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+/* Cards */
+.admin-home-card{
+    color: #E4E6EB;                 /* Softer text */
+    text-align: center;
+    background-color: #2A2A40;      /* New card color */
+    width: 70%;
+    margin-left: 15%;
+    padding: 4vh 0;
+    border-radius: 0.8rem;
+    border: 1px solid #3F3F55;      /* Subtle border */
+}
+
+.admin-home-card:hover{
+    box-shadow: rgba(80, 102, 241, 0.2) 0px 8px 24px;  /* Blue glow */
+}
+
+/* Buttons */
+.admin-home-card button{
+    border: 1.5px solid #4F8CF7;
+    background-color: transparent;
+    color: #4F8CF7;
+    padding: 5px 25px;
+    border-radius: 0.5rem;
+}
+
+.admin-home-card button:hover{
+    background-color: #4F8CF7;
+    color: #ffffff;
+}
+
+/* Banner Input */
+.admin-banner-input{
+    width: 42vw;
+    padding: 4vh 3vw;
+}
+
+.admin-banner-input h5{
+    margin-bottom: 20px;
+}
+
+.admin-banner-input input{
+    background-color: #2A2A40;
+    color: #E4E6EB;
+    border: 1px solid #565674;
+}
+
+.admin-banner-input input:focus{
+    background-color: #2A2A40;
+    color: #fff;
+    outline: none;
+}
+
+.admin-banner-input button{
+    margin-top: 30px;
+    border: 1.5px solid #A5B4FC;
+    background-color: transparent;
+    color: #A5B4FC;
+    padding: 5px 25px;
+    border-radius: 0.5rem;
+}
+
+.admin-banner-input button:hover{
+    background-color: #A5B4FC;
+    color: #1E1E2F;
+}

@@ -1,0 +1,178 @@
+.cartPage{
+    margin-top: 15vh;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #1E1E2F;
+    min-height: 100vh;
+    padding-bottom: 5vh;
+}
+
+/* Left-side cart content area */
+.cartContents{
+    width: 65%;
+    background-color: #2A2A40;
+    height: 83vh;
+    border: 1px solid #3F3F55;
+    padding: 4vh 2vw;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 0.5rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px;
+}
+
+/* Each Cart Item */
+.cartItem{
+    display: flex;
+    gap: 3vw;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #3F3F55;
+}
+
+.cartItem img{
+    width: 25%;
+    height: 25vh;
+    border-radius: 0.4rem;
+    object-fit: cover;
+}
+
+/* Item Text Section */
+.cartItem-data h4{
+    font-size: 1.1rem;
+    margin: 0;
+    font-weight: 600;
+    color: #A5B4FC;
+}
+
+.cartItem-data p{
+    margin: 0;
+    font-size: 0.8rem;
+    color: #C7C9D1;
+}
+
+.cartItem-data span h5{
+    font-size: 0.9rem;
+    margin: 10px 0 0 0;
+    font-weight: 400;
+    color: #E4E6EB;
+}
+
+.cartItem-data span h5 b{
+    font-weight: 600;
+    color: #4F8CF7;
+}
+
+/* Quantity / Remove Section */
+.cartItem-inputs{
+    display: flex;
+    gap: 40px;
+    justify-content: start;
+    align-items: center;
+}
+
+.cartItem-inputs span p{
+    display: flex;
+    gap: 10px;
+    margin: 0;
+    color: #C7C9D1;
+}
+
+/* Plus / minus inputs */
+.cartItem-inputs div{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    gap: 5px;
+}
+
+.cartItem-inputs input{
+    max-width: 40px;
+    padding-left: 10px;
+    font-size: 0.75rem;
+    height: 22px;
+    background: rgba(255,255,255,0.05);
+    border: 1px solid #8DA4D8;
+    border-radius: 0.3rem;
+    color: #E4E6EB;
+}
+
+.cartItem-inputs div button{
+    padding: 0 8px;
+    height: 22px;
+    border-radius: 0.3rem;
+    background-color: #4F8CF7;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.cartItem-inputs div button:hover{
+    background-color: #3B6ED6;
+}
+
+/* Right-side price summary box */
+.cartPriceBody{
+    width: 24%;
+    height: fit-content;
+    background-color: #2A2A40;
+    padding: 3vh 2vw;
+    border: 1px solid #3F3F55;
+    border-radius: 0.5rem;
+    color: #E4E6EB;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px;
+}
+
+.cartPriceBody h4{
+    margin-bottom: 3vh;
+    color: #A5B4FC;
+}
+
+.cartPriceBody span{
+    display: flex;
+    justify-content: space-between;
+    color: #C7C9D1;
+}
+
+.cartPriceBody span b{
+    font-weight: 600;
+    color: #4F8CF7;
+}
+
+.cartPriceBody h5{
+    font-weight: 400;
+    color: #E4E6EB;
+}
+
+.cartPriceBody h5 b{
+    font-weight: 600;
+    color: #4F8CF7;
+}
+
+/* Checkout Button */
+.cartPriceBody button{
+    width: 100%;
+    padding: 13px 0;
+    font-weight: 600;
+    margin: 3vh 0;
+    background-color: #4F8CF7;
+    color: aliceblue;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.cartPriceBody button:hover{
+    background-color: #3B6ED6;
+}
+
+/* Checkout Modal */
+.modal-body .checkout-address section{
+    display: flex;
+    gap: 3%;
+}
+
+.span-child-1{
+    width: 65%;
+}

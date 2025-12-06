@@ -1,0 +1,166 @@
+.IndividualProduct-page{
+    margin-top: 15vh;
+    background-color: #1E1E2F;
+    padding-bottom: 10vh;
+}
+
+/* Back button or breadcrumb */
+.IndividualProduct-page span{
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+    cursor: pointer;
+    margin-left: 10px;
+    color: #A5B4FC;
+}
+
+.IndividualProduct-page span p{
+    padding-bottom: 3px;
+    margin: 0;
+    font-size: 1rem;
+    color: #C7C9D1;
+}
+
+/* Main container */
+.IndividualProduct-body{
+    display: flex;
+    margin-top: 3vh;
+}
+
+/* Carousel */
+.IndividualProduct-body .carousel{
+    width: 40%;
+    margin: 0 5%;
+    height: 70vh;
+    border-radius: 0.4rem;
+    overflow: hidden;
+    background-color: #2A2A40;
+    border: 1px solid #3F3F55;
+}
+
+.IndividualProduct-body .carousel img{
+    height: 70vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.carousel-control-prev span,
+.carousel-control-next span{
+    background-color: rgba(255,255,255,0.2);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+/* Right Side Data Section */
+.IndividualProduct-data{
+    margin-top: 1vh;
+    width: 46%;
+    color: #E4E6EB;
+}
+
+.IndividualProduct-data h3{
+    color: #A5B4FC;
+}
+
+/* Description */
+.IndividualProduct-data p{
+    color: #C7C9D1;
+}
+
+/* Price Section */
+.IndividualProduct-data span{
+    display: flex;
+    gap: 5px;
+    margin: 0;
+}
+
+.IndividualProduct-data span h5{
+    font-size: 1.2rem;
+    margin: 0;
+    color: #4F8CF7;
+}
+
+.IndividualProduct-data span h5 b{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.IndividualProduct-data span s{
+    color: #FF6B6B;
+    font-size: 1rem;
+}
+
+.IndividualProduct-data span p{
+    color: #4F8CF7;
+}
+
+/* Subheading (e.g., details) */
+.IndividualProduct-data h6{
+    color: #C7C9D1;
+    margin-top: 3vh;
+}
+
+.IndividualProduct-data h6 b{
+    font-weight: 600;
+    color: #E4E6EB;
+}
+
+/* Selectors & Labels */
+.IndividualProduct-data span label{
+    color: #C7C9D1;
+    font-size: 1.1rem;
+    margin-bottom: 3vh;
+}
+
+.IndividualProduct-data span select{
+    font-size: 1rem;
+    color: #E4E6EB;
+    background-color: #2A2A40;
+    border: 1px solid #3F3F55;
+    padding: 6px;
+    border-radius: 0.3rem;
+    margin-bottom: 2.5vh;
+}
+
+.IndividualProduct-data span select option{
+    color: #E4E6EB;
+    background-color: #2A2A40;
+}
+
+/* Buttons Section */
+.productBuyingButtons{
+    margin-top: 10vh;
+    display: flex;
+    gap: 20px;
+}
+
+/* Buttons Style */
+.productBuyingButtons button{
+    width: 200px;
+    padding: 10px 0;
+    font-weight: 500;
+    border: none;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    transition: 0.25s ease;
+}
+
+/* Add to Cart */
+.productBuyingButtons button:first-child{
+    background-color: #4F8CF7;
+    color: aliceblue;
+}
+
+.productBuyingButtons button:first-child:hover{
+    background-color: #3B6ED6;
+}
+
+/* Buy Now */
+.productBuyingButtons button:last-child{
+    background-color: #EB5A12;
+    color: aliceblue;
+}
+
+.productBuyingButtons button:last-child:hover{
+    background-color: #F56E34;
+}
